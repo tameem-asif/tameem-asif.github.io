@@ -1,3 +1,9 @@
+<center>
+
+[**Home**](https://www.tameemasif.com) | [**Blog**](https://www.tameemasif.com) | [**Projects**](https://www.tameemasif.com)
+
+</center>
+
 # Hi there 👋
 
 My name is Tameem Asif and I'm a student studying Computer Engineering at Columbia University.
