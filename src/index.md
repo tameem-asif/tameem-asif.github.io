@@ -4,7 +4,7 @@ My name is Tameem Asif and I'm a student studying Computer Engineering at Columb
 
 Check out some cool projects I've been working on [here](https://github.com/tameem-asif)
 
-Also, you can check out my resume [here](www.tameemasif.com/resume/resume.pdf)
+Also, you can check out my resume [here](https://www.tameemasif.com/resume/resume.pdf)
 
 ## Blog ??
 
