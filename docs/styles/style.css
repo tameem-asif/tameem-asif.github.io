@@ -1,0 +1,21 @@
+@font-face
+{
+    font-family:messinasans;
+    src: url("fonts/MessinaSans-Regular.tff") format("ttf");
+    font-weight:300;
+    font-style:normal;
+}
+
+title
+{
+    font-family:messinasans, sans-serif;
+    font-size:40;
+    font-weight:600;
+}
+
+h1
+{
+    font-family:messinasans, sans-serif;
+    font-size:40;
+    font-weight:600;
+}

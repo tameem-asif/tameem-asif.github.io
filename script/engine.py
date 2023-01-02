@@ -1,8 +1,8 @@
 import os
 import markdown
 
-if not os.path.exists('../public'):
-    os.mkdir('../public')
+if not os.path.exists('../docs'):
+    os.mkdir('../docs')
 
 for subdir, dirs, files in os.walk('../src/'):
     for f in files:
@@ -12,7 +12,7 @@ for subdir, dirs, files in os.walk('../src/'):
 
         file_name = os.path.basename(f)
         new_dir = subdir
-        new_dir = "../public" + new_dir[6:]
+        new_dir = "../docs" + new_dir[6:]
         if not os.path.exists(new_dir):
             os.mkdir(new_dir)
         destination = os.path.join(new_dir,
@@ -21,7 +21,7 @@ for subdir, dirs, files in os.walk('../src/'):
         with open(destination, 'w+') as file:
             file.write(
                 r'''<meta name="viewport" content="width=device-width, initial-scale=1">
-            <link rel = "stylesheet" href="https://cdn.jsdelivr.net/gh/tameem-asif/tameem-asif.github.io@master/public/styles/markdown.css">
+            <link rel = "stylesheet" href="https://cdn.jsdelivr.net/gh/tameem-asif/tameem-asif.github.io@master/docs/styles/markdown.css">
             <style>
             .markdown-body {
                 box-sizing: border-box;
