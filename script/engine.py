@@ -8,7 +8,7 @@ for subdir, dirs, files in os.walk('../src/'):
     for f in files:
         with open(os.path.join(subdir, f), 'r') as file:
             raw = file.read()
-            html = markdown.markdown(raw)
+            html = markdown.markdown(raw, extensions=['tables', 'footnotes'])
 
         file_name = os.path.basename(f)
         new_dir = subdir
