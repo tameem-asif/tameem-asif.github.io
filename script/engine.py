@@ -19,8 +19,12 @@ for subdir, dirs, files in os.walk('../src/'):
                                    os.path.splitext(file_name)[0] + ".html")
 
         with open(destination, 'w+') as file:
-            file.write(
-                r'''<meta name="viewport" content="width=device-width, initial-scale=1">
+            file.write(r'''<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charSet="utf-8"/>
+    <title>Tameem Asif</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
             <link rel = "stylesheet" href="https://cdn.jsdelivr.net/gh/tameem-asif/tameem-asif.github.io@master/docs/styles/markdown.css">
             <style>
             .markdown-body {
