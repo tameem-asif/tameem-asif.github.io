@@ -1,6 +1,6 @@
 <center>
 
-[**Home**](https://www.tameemasif.com) | [**Blog**](https://www.tameemasif.com) | [**Projects**](https://www.tameemasif.com)
+[**Home**](https://www.tameemasif.com) | [**Blog**](https://www.tameemasif.com) | [**Projects**](https://www.tameemasif.com/projects/)
 
 </center>
 
